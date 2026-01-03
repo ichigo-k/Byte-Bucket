@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-black: #0f0f0f;
+    --color-light-black: #171717;
+    --color-primary: #38b000;
+    --color-white: #f8f8f8;
+    --color-secondary: #008000;
+    --light-gray: rgba(255,255,255,0.6);
+    --soft-gray: rgba(255,255,255,0.4);
+    --border-gray: rgba(255,255,255,0.08);
+    --hover-gray: rgba(255,255,255,0.04);
+    --danger-red: rgba(239,68,68,0.9);
+}
